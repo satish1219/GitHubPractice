@@ -14,11 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print(message)
         print(reverse(text: "stressed"))
+        print(reverse2(text: "working"))
+        print("Hai to all people")
         // Do any additional setup after loading the view.
     }
 
     
     func reverse(text: String) -> String {
+        return String(text.reversed())
+    }
+    
+    func reverse2(text: String) -> String {
         return String(text.reversed())
     }
 }
